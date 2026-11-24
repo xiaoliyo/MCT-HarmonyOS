@@ -1,0 +1,104 @@
+{
+  "routerMap": [
+    {
+      "name": "readTag",
+      "pageSourceFile": "src/main/ets/pages/ReadTag.ets",
+      "buildFunction": "ReadTagBuilder"
+    },
+    {
+      "name": "keyMapCreator",
+      "pageSourceFile": "src/main/ets/pages/KeyMapCreator.ets",
+      "buildFunction": "KeyMapCreatorBuilder"
+    },
+    {
+      "name": "writeTag",
+      "pageSourceFile": "src/main/ets/pages/WriteTag.ets",
+      "buildFunction": "WriteTagBuilder"
+    },
+    {
+      "name": "dumpEditor",
+      "pageSourceFile": "src/main/ets/pages/DumpEditor.ets",
+      "buildFunction": "DumpEditorBuilder"
+    },
+    {
+      "name": "keyEditor",
+      "pageSourceFile": "src/main/ets/pages/KeyEditor.ets",
+      "buildFunction": "KeyEditorBuilder"
+    },
+    {
+      "name": "fileChooser",
+      "pageSourceFile": "src/main/ets/pages/FileChooser.ets",
+      "buildFunction": "FileChooserBuilder"
+    },
+    {
+      "name": "importExportTool",
+      "pageSourceFile": "src/main/ets/pages/ImportExportTool.ets",
+      "buildFunction": "ImportExportToolBuilder"
+    },
+    {
+      "name": "tagInfoTool",
+      "pageSourceFile": "src/main/ets/pages/TagInfoTool.ets",
+      "buildFunction": "TagInfoToolBuilder"
+    },
+    {
+      "name": "uidLogTool",
+      "pageSourceFile": "src/main/ets/pages/UidLogTool.ets",
+      "buildFunction": "UidLogToolBuilder"
+    },
+    {
+      "name": "valueBlockTool",
+      "pageSourceFile": "src/main/ets/pages/ValueBlockTool.ets",
+      "buildFunction": "ValueBlockToolBuilder"
+    },
+    {
+      "name": "valueBlocksToInt",
+      "pageSourceFile": "src/main/ets/pages/ValueBlocksToInt.ets",
+      "buildFunction": "ValueBlocksToIntBuilder"
+    },
+    {
+      "name": "preferences",
+      "pageSourceFile": "src/main/ets/pages/Preferences.ets",
+      "buildFunction": "PreferencesBuilder"
+    },
+    {
+      "name": "acDecoder",
+      "pageSourceFile": "src/main/ets/pages/AcDecoder.ets",
+      "buildFunction": "AcDecoderBuilder"
+    },
+    {
+      "name": "acTool",
+      "pageSourceFile": "src/main/ets/pages/AccessConditionTool.ets",
+      "buildFunction": "AccessConditionToolBuilder"
+    },
+    {
+      "name": "bccTool",
+      "pageSourceFile": "src/main/ets/pages/BccTool.ets",
+      "buildFunction": "BccToolBuilder"
+    },
+    {
+      "name": "dataConversionTool",
+      "pageSourceFile": "src/main/ets/pages/DataConversionTool.ets",
+      "buildFunction": "DataConversionToolBuilder"
+    },
+    {
+      "name": "diffTool",
+      "pageSourceFile": "src/main/ets/pages/DiffTool.ets",
+      "buildFunction": "DiffToolBuilder"
+    },
+    {
+      "name": "hexToAscii",
+      "pageSourceFile": "src/main/ets/pages/HexToAscii.ets",
+      "buildFunction": "HexToAsciiBuilder"
+    },
+    {
+      "name": "cloneUidTool",
+      "pageSourceFile": "src/main/ets/pages/CloneUidTool.ets",
+      "buildFunction": "CloneUidToolBuilder"
+    },
+    {
+      "name": "help",
+      "pageSourceFile": "src/main/ets/pages/Help.ets",
+      "buildFunction": "HelpBuilder"
+    }
+  ]
+}

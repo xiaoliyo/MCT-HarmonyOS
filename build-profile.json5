@@ -1,0 +1,56 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\LXY\\.ohos\\config\\default_MifareClassicTool-harmonyos_07qDCE2aQuxS9WnBZrOf9W-LaAwVpwu_da1T4OXqLtI=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B61E4A26B92A6BFFDC0B0916498E281DB7377B39A4BEBCF5D98E1170CCB1A2A1F49B0540728885D",
+          "profile": "C:\\Users\\LXY\\.ohos\\config\\default_MifareClassicTool-harmonyos_07qDCE2aQuxS9WnBZrOf9W-LaAwVpwu_da1T4OXqLtI=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\LXY\\.ohos\\config\\default_MifareClassicTool-harmonyos_07qDCE2aQuxS9WnBZrOf9W-LaAwVpwu_da1T4OXqLtI=.p12",
+          "storePassword": "0000001B6169B5EA8073D19DAD467BA84D032E967FEDAB493D0C4F5A6D863C2B9F0D4DDAAEDAC53A4CE396"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "26.0.0",
+        "compatibleSdkVersion": "26.0.0",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

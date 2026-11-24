@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "MIFARE Classic Tool"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "An NFC card tool to read, write and analyze MIFARE Classic tags"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "MIFARE Classic Tool"
+    },
+    {
+      "name": "nfc_perm_reason",
+      "value": "NFC access is required to read from and write to MIFARE Classic tags"
+    }
+  ]
+}
